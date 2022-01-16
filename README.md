@@ -17,3 +17,7 @@ pre-commit 需要放在 .git/hooks 文件夹执行。因此，无法执行代码
 sh easy-git-hook.sh 目标 git 仓库地址
 ```
 可自动将 pre-commit 文件复制到目标 git 仓库 .git/hooks/ 下，即可以在 git commit 时执行 pre-commit 检查了。
+
+## git config
+
+- [全局忽略 .DS_Store](https://0xmachos.com/2020-01-22-Eradicating-.DS_Store-From-Git/)
